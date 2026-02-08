@@ -22,3 +22,5 @@ To run a manual network health check:
 1. Open PowerShell as Administrator.
 2. Navigate to `/scripts`.
 3. Run: `./Heartbeat.ps1`
+
+Web Dashboard: Generates a real-time HTML5/CSS3 status page with neon UI.
