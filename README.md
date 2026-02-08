@@ -53,3 +53,9 @@ For advanced network auditing and permanent surveillance, NetGuard integrates wi
 * **Netdata**: Real-time per-second infrastructure monitoring.
 * **Zabbix / SNMP**: Centralized monitoring of network switches (Cisco/HP) and Linux servers.
 * **Nmap & Iftop**: Command-line tools for security auditing and bandwidth analysis.
+🐧 1. La commande magique pour Linux (Netdata)
+
+Netdata est un moteur de surveillance en temps réel qui s'installe en une seule ligne.
+Il va scanner ton serveur Linux et générer un dashboard interactif accessible sur le port 19999.
+Sur ton serveur Linux (Debian, Ubuntu, Mint), lance Bash: 
+wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata
