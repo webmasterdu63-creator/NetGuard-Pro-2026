@@ -24,3 +24,11 @@ To run a manual network health check:
 3. Run: `./Heartbeat.ps1`
 
 Web Dashboard: Generates a real-time HTML5/CSS3 status page with neon UI.
+🕒 Pour l'automatisation (Niveau Expert TSSR)
+
+Pour que ce dashboard soit toujours à jour , voici comment créer une Tâche Planifiée en une seule ligne 
+de commande PowerShell (à lancer en Administrateur) :
+$action = New-ScheduledTaskAction -Execute 'PowerShell.exe' -Argument "-WindowStyle Hidden -File `"$PSScriptRoot\Dashboard.ps1`""
+$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 5)
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "NetGuard_Heartbeat_Update" -Description "Mise à jour du Dashboard NetGuard toutes les 5 min"
+
