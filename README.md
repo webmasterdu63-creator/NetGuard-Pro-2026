@@ -47,3 +47,9 @@ This configuration will trigger the `Dashboard.ps1` script every 5 minutes in si
 `$trigger = New-ScheduledTaskTrigger -AtLogOn
 `$trigger.RepetitionInterval = (New-TimeSpan -Minutes 5)
 Register-ScheduledTask -Action `$action -Trigger `$trigger -TaskName "NetGuard_Heartbeat_Service" -User "SYSTEM" -RunLevel Highest
+
+## 🐧 Linux Enterprise Toolset
+For advanced network auditing and permanent surveillance, NetGuard integrates with:
+* **Netdata**: Real-time per-second infrastructure monitoring.
+* **Zabbix / SNMP**: Centralized monitoring of network switches (Cisco/HP) and Linux servers.
+* **Nmap & Iftop**: Command-line tools for security auditing and bandwidth analysis.
