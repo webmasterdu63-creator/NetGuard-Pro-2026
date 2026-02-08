@@ -1,6 +1,4 @@
-# NetGuard-Pro-2026 - Network and Web Security 
-# 🛡️ NetGuard-Pro-2026
-
+# 🛡️ NetGuard-Pro-2026 : Unified Network Infrastructure Monitoring
 <p align="center">
   <img src="https://github.com/webmasterdu63-creator/NetGuard-Pro-2026/blob/main/NetGuardPro.jpg" width="200" alt="NetGuard Pro 2026 Logo">
 </p>
