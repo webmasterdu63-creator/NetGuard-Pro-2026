@@ -9,18 +9,12 @@
   <img src="https://img.shields.io/badge/Uptime-24%2F7-brightgreen" alt="Uptime">
 </p>
 
----
+## 🌐 Enterprise-Grade Oversight
+**NetGuard-Pro-2026** is a professional-tier surveillance engine designed for **TSSR** and **SysAdmin** teams. It provides deep visibility into complex network topologies, ensuring 99.9% uptime through proactive node heartbeat tracking and real-time traffic heuristics.
 
-## 🌐 Enterprise Network Surveillance
-**NetGuard-Pro-2026** is a comprehensive monitoring solution designed for TSSR professionals to maintain 24/7 visibility over corporate infrastructures. It tracks device health, traffic flow, and potential security breaches in real-time.
+## ✨ Core Precision Features
+* **Node Heartbeat Monitoring**: High-frequency ICMP/SNMP polling for critical server clusters.
+* **Intrusion Heuristics**: Detection of unauthorized packet spikes or suspicious lateral movements.
+* **Dynamic Asset Mapping**: Automatic discovery and inventory of connected hardware within the subnet.
+* **Incident Alerting**: Zero-latency notification system via Webhooks (Discord/Slack) or SMTP.
 
-## ✨ Key Features
-* **Real-time Monitoring**: Live tracking of server and workstation uptime (ICMP/SNMP).
-* **Traffic Analysis**: Detection of unusual data spikes or unauthorized connections.
-* **Instant Alerts**: Email or Webhook notifications for critical system failures.
-* **Asset Management**: Automatic inventory of connected devices on the subnet.
-
-## 🛠️ Stack
-* **Core**: Python / PowerShell scripts
-* **Dashboard**: Grafana / InfluxDB integration
-* **Reporting**: Automated weekly PDF performance audits
