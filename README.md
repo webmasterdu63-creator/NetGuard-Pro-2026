@@ -86,3 +86,9 @@ wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /
     Sécurité : Intégration de scans de vulnérabilités (Nmap/Lynis) dans le workflow quotidien.
 
     UX/UI : Branding cohérent pour faciliter la lecture des alertes critiques (thème Neon/Cyber).
+📊 Résumé de la Stack de Surveillance
+Outil	Rôle dans NetGuard	Fréquence
+PowerShell Task	État de santé des nœuds critiques	Toutes les 5 min
+Netdata	Performance serveurs Linux	Temps réel (1 sec)
+Nmap	Audit de sécurité et nouveaux appareils	Hebdomadaire (scan)
+HTML Dashboard	Visualisation centralisée	Refresh toutes les 60s
