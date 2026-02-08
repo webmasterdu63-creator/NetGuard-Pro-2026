@@ -17,4 +17,8 @@
 * **Intrusion Heuristics**: Detection of unauthorized packet spikes or suspicious lateral movements.
 * **Dynamic Asset Mapping**: Automatic discovery and inventory of connected hardware within the subnet.
 * **Incident Alerting**: Zero-latency notification system via Webhooks (Discord/Slack) or SMTP.
-
+## 🚀 Quick Start
+To run a manual network health check:
+1. Open PowerShell as Administrator.
+2. Navigate to `/scripts`.
+3. Run: `./Heartbeat.ps1`
