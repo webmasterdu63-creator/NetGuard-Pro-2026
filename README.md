@@ -32,3 +32,18 @@ $action = New-ScheduledTaskAction -Execute 'PowerShell.exe' -Argument "-WindowSt
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 5)
 Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "NetGuard_Heartbeat_Update" -Description "Mise à jour du Dashboard NetGuard toutes les 5 min"
 
+## ⚙️ Automation & Deployment
+
+To ensure **NetGuard-Pro-2026** runs as a 24/7 background service without manual intervention, follow these steps to set up a Windows Scheduled Task.
+
+### 🕒 Automatic Background Updates
+This configuration will trigger the `Dashboard.ps1` script every 5 minutes in silent mode (hidden window).
+
+1. Open **PowerShell** as Administrator.
+2. Run the following command to create the task:
+
+```powershell
+`$action = New-ScheduledTaskAction -Execute 'PowerShell.exe' -Argument "-WindowStyle Hidden -File `"`$PSScriptRoot\Dashboard.ps1`""
+`$trigger = New-ScheduledTaskTrigger -AtLogOn
+`$trigger.RepetitionInterval = (New-TimeSpan -Minutes 5)
+Register-ScheduledTask -Action `$action -Trigger `$trigger -TaskName "NetGuard_Heartbeat_Service" -User "SYSTEM" -RunLevel Highest
