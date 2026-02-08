@@ -59,3 +59,30 @@ Netdata est un moteur de surveillance en temps réel qui s'installe en une seule
 Il va scanner ton serveur Linux et générer un dashboard interactif accessible sur le port 19999.
 Sur ton serveur Linux (Debian, Ubuntu, Mint), lance Bash: 
 wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata
+📑 Fiche de Présentation : Écosystème NetGuard & Rescue
+1. La Problématique
+
+"Comment assurer la continuité de service et la réactivité d'un parc informatique hétérogène (Windows/Linux) face aux pannes et aux incidents de sécurité ?"
+2. La Solution : Un Écosystème à deux piliers
+
+    Pilier 1 : Surveillance Proactive (NetGuard-Pro-2026)
+
+        Dashboard Unifié : Visualisation en temps réel de l'état des serveurs via PowerShell et HTML5.
+
+        Automation : Tâches planifiées pour un monitoring 24/7 sans intervention humaine.
+
+        Hybridité : Intégration d'outils industriels Linux (Netdata/Zabbix) pour une visibilité totale.
+
+    Pilier 2 : Intervention Tout-Terrain (TSSR Rescue Key)
+
+        Multiboot Universel : Environnements de secours Tiny11 et Linux Mint prêts en quelques secondes.
+
+        Scripts de Diagnostic : Automatisation de la récupération de données et du reset de mots de passe.
+
+3. Points Forts Techniques (Pour épater le jury)
+
+    Infrastructure as Code (Light) : Utilisation de scripts pour générer des interfaces de monitoring.
+
+    Sécurité : Intégration de scans de vulnérabilités (Nmap/Lynis) dans le workflow quotidien.
+
+    UX/UI : Branding cohérent pour faciliter la lecture des alertes critiques (thème Neon/Cyber).
