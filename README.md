@@ -1,9 +1,8 @@
-# NetGuard-Pro-2026
-Network and Web Security 
+# NetGuard-Pro-2026 - Network and Web Security 
 # 🛡️ NetGuard-Pro-2026
 
 <p align="center">
-  <img src="netguard-logo.png" width="300" alt="NetGuard Pro 2026 Logo">
+  <img src="netguard-logo.png" width="200" alt="NetGuard Pro 2026 Logo">
 </p>
 
 <p align="center">
