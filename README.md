@@ -2,7 +2,7 @@
 # 🛡️ NetGuard-Pro-2026
 
 <p align="center">
-  <img src="netguard-logo.png" width="200" alt="NetGuard Pro 2026 Logo">
+  <img src="https://github.com/webmasterdu63-creator/NetGuard-Pro-2026/blob/main/NetGuardPro.jpg" width="200" alt="NetGuard Pro 2026 Logo">
 </p>
 
 <p align="center">
