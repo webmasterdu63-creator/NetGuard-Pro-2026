@@ -13,6 +13,22 @@ $HtmlHeader = @"
 <meta charset='UTF-8'>
 <meta http-equiv='refresh' content='60'>
 <style>
+/* ... tes styles précédents ... */
+.nav-bar { background: #161b22; padding: 10px; border-bottom: 2px solid #00ffff; margin-bottom: 30px; }
+.nav-link { color: #00ffff; text-decoration: none; font-weight: bold; padding: 0 15px; }
+.nav-link:hover { text-shadow: 0 0 10px #00ffff; }
+</style></head><body>
+<div class='nav-bar'>
+    <a href='#' class='nav-link'>🏠 Windows Status</a>
+    <a href='http://IP_DE_TON_SERVEUR_LINUX:19999' class='nav-link' target='_blank'>🐧 Linux Real-Time (Netdata)</a>
+</div>
+<h1>🛡️ NETGUARD-PRO-2026 LIVE STATUS</h1>
+"@
+$HtmlHeader = @"
+<html><head>
+<meta charset='UTF-8'>
+<meta http-equiv='refresh' content='60'>
+<style>
 body { background: #0b0e14; color: #00ffff; font-family: 'Segoe UI', sans-serif; text-align: center; margin: 0; padding: 20px; }
 .grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 50px; }
 .card { border: 2px solid #00ffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px #00ffff; width: 220px; transition: 0.3s; }
